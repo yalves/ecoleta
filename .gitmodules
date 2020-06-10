@@ -1,0 +1,9 @@
+[submodule "ecoleta-web"]
+	path = ecoleta-web
+	url = https://github.com/yalves/ecoleta-web
+[submodule "ecoleta-server"]
+	path = ecoleta-server
+	url = https://github.com/yalves/ecoleta-server
+[submodule "ecoleta-mobile"]
+	path = ecoleta-mobile
+	url = https://github.com/yalves/ecoleta-mobile

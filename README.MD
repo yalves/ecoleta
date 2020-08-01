@@ -23,14 +23,14 @@
 </p>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-backend">Backend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-instalação">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
+  <a href="#-instalação">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">License</a>
 </p>
 
 <br>
@@ -40,20 +40,21 @@
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed using this technologies:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
-- [API do IBGE para consumo do endereço](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)
-- [Upload de imagens](react-dropzone)
+- [IBGE API to query addresses](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)
+- [Images upload](react-dropzone)
 - [Leaflet](https://leafletjs.com/examples/quick-start/)
 - [Celebrate](https://github.com/arb/celebrate) 
 
-## 💻 Projeto
-Projeto desenvolvido durante a <strong>Next Level Week</strong> que tem como objetivo fins ecológicos. 
-O <strong>Ecoleta</strong> serve como um Marketplace, uma conexão entre empresas ou entidade que coletam resíduos, sejam eles orgânicos ou inorgânicos, à pessoas que precisam fazer descarte dos resíduos.
+## 💻 Project
+The project was developed during the <strong>Next Level Week</strong> with ecological interests
+
+The <strong>Ecoleta</strong> platform serves as a marketplace, a connection between companies or entities that collect waste, whether organic or inorganic, to people who need to dispose it.
 
 ## 🔨 Backend
 <h1 align="center">
@@ -70,45 +71,45 @@ O <strong>Ecoleta</strong> serve como um Marketplace, uma conexão entre empresa
     <img alt="Ecoleta Mobile" title="" src=".github/mobile.gif" />
 </h1>
 
-## 🔥 Instalação
+## 🔥 Installing
 
 ```bash
-# Clone este repositório
+# Clone this repository
 $ git clone git@github.com:yalves/ecoleta.git
 
-# Navegue em cada pasta: ecoleta-server / ecoleta-web / ecoleta-mobile e instale as depedências:
+# Navigate into each folder: ecoleta-server / ecoleta-web / ecoleta-mobile and install the dependencies:
 $ yarn install
 
-# Navegue até a pasta ecoleta-server e execute os seguintes comandos:
+# Navigate to the ecoleta-server folder and run the following commands:
 $ yarn knex:migrate
 $ yarn knex:seed
 $ yarn run dev
 
-# Depois disso, entre na pasta ecoleta-web e execute o comando:
+# Navigate to the ecoleta-web folder and run this command:
 $ yarn start
 
-# E finalmente, entre na pasta ecoleta-mobile e execute o comando:
+# And finally, navigate to the ecoleta-mobile folder and run this command:
 $ expo start
 
-# Observações:
-- Não esqueça de mudar a baseURL no arquivo api.ts das pastas web e mobile para o ip da sua máquina
+# Notes:
+- Don't forget to change the baseURL in the api.ts file of the web and mobile folders to match your computer's ip
 ```
 
 
-## 🤔 Como contribuir
+## 🤔 Contributing
 
-- Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`.
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your modifications: `git commit -m 'feat: My new feature'`;
+- Push the code to your branch: `git push origin my-feature`.
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+After the merge of your pull request is done, you can delete your branch.
 
 
-## 🧾 Licença
+## 🧾 License
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+This project is under the MIT license. See the file [LICENSE](LICENSE.md) for details.
 
 ---
 
-Feito com 💗 by [Yan Alves](https://www.linkedin.com/in/yan-alves-monteiro-b8743810a/)
+Made with 💗 by [Yan Alves](https://www.linkedin.com/in/yan-alves-monteiro-b8743810a/)

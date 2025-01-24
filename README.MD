@@ -38,9 +38,9 @@
 
 ---
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-This project was developed using this technologies:
+This project was developed using these technologies:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
